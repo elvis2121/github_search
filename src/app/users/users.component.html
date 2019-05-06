@@ -2,10 +2,7 @@
   <input type="text" name="username" class="form-control" placeholder="username" [(ngModel)]="user1.username"
     (keyup)="searchUsername()">
 </div>
-
-
 <div class="container">
-
   <div class="row">
     <div class="col-md-4">
       <img src="{{user2.avatar_url}}" class="img-thumbnail">
@@ -21,7 +18,7 @@
       <br>
 
       <ul class="list-group">
-        <li  class="list-group-item" appBackground>username: {{user2.login}}</li>
+        <li class="list-group-item" appBackground>username: {{user2.login}}</li>
         <li class="list-group-item">number of repos: {{user2.public_repos}}</li>
         <li class="list-group-item">email: {{user2.email}}</li>
         <li class="list-group-item">member since: {{user2.created_at}}</li>
