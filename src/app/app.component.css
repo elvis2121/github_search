@@ -1,0 +1,28 @@
+#main_header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#search_user{
+    margin-left: 50%;
+    margin-top: 50px;
+    background-color: darkorange;
+}
+#main_container{
+    background-color:#497f30;
+    border-radius:30px;
+
+}
+
+#footer{
+    margin-top: 150px;
+    border: 5px solid #497f30;
+}
+
+#footer h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+}
