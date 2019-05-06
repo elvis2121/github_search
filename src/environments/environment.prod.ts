@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  api_key:'?access_token=f98068c641a3f3727beff4c31667ad5b99afe619'
+  api_key:'?access_token=082fcd35cd2e5888dade18063b55fe1442d5df1a'
 };
