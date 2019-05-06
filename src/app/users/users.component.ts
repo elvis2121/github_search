@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {UsersService} from '../users.service';
-import {GitUsers} from '../../app/git-users';
+import {Users} from '../../app/users';
 
 @Component({
   selector: 'app-users',
@@ -9,7 +9,7 @@ import {GitUsers} from '../../app/git-users';
 })
 export class UsersComponent implements OnInit {
 
-  user1 =  new GitUsers('')
+  user1 =  new Users('')
   user2 : any
   
 
