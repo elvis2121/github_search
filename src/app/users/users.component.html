@@ -1,3 +1,34 @@
-<p>
-  users works!
-</p>
+<div class="container">
+  <input type="text" name="username" class="form-control" placeholder="username" [(ngModel)]="user1.username"
+    (keyup)="searchUsername()">
+</div>
+
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-4">
+      <img src="{{user2.avatar_url}}" class="img-thumbnail">
+    </div>
+    <div class="col-md-8">
+      <div class="base_info">
+        <span class="label label-default">{{user2.public_repos}} public repos</span>
+        <span class="label label-primary">{{user2.public_gists}} public gists</span>
+        <span class="label label-success">{{user2.public_followers}} followers</span>
+        <span class="label label-info">{{user2.public_following}} following</span>
+      </div>
+      <br>
+      <br>
+
+      <ul class="list-group">
+        <li appBackgroundcolor class="list-group-item">username: {{user2.login}}</li>
+        <li class="list-group-item">number of repos: {{user2.public_repos}}</li>
+        <li class="list-group-item">email: {{user2.email}}</li>
+        <li class="list-group-item">member since: {{user2.created_at}}</li>
+        <li class="list-group-item">visit Github repo:<a href="{{user2.html_url}}">visit github</a> </li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>
