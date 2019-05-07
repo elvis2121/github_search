@@ -1,27 +1,40 @@
-# Gitsearch
+# GitHub Searcher
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+This project was generated with Angular CLI version 7.3.6. It is an online website that allows a person to search for users
+at gitHub using their usernames. 
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## BDD
 
-## Code scaffolding
+| BEHAVIOUR                                 | INPUT                     | OUTPUT               |
+|-------------------------------------------|---------------------------|----------------------|
+| search for user                           | input "elvis2121"         |display user elvis2121|
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Setup/Installation Requirements
+* Open your browser.
+* Load gitHub on your browser.
+* Search for elvis2121/.... repository.
+* Fork the data onto your own personal repository.
+* Clone project
+* run 'ng install' on terminal
+* run 'ng serve' on terminal
+* To access the live website, click on this url https://elvis2121.github.io/github_search/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## Technologies Used
+* CSS for styling.
+* HTML for webpage design.
+* Typescript for back-end.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Dependencies
+* Angular CLI
 
-## Running end-to-end tests
+## Support and contact details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Email: elvisnjau@gmail.com
 
-## Further help
+## License and Copyright details
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* The MIT License (MIT)
+* Copyright (c) 2019Huss
